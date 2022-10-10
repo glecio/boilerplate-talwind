@@ -14,7 +14,7 @@
       <a class="text-yellow-400 text-xl font-bold italic" href="https://www.kindacode.com">KINDA<span class="text-white">CODE</span></a>
 
       <!-- Menu links here -->
-      <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50
+      <ul id="manu4" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50
                 md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
 
         <li class="md:hidden z-90 fixed top-4 right-6">
