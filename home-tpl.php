@@ -19,13 +19,21 @@ get_header(); ?>
         </div>
     </div>
 
-    <!-- example react component -->
+    <!-- example react component 
     <div id="render-react-example-here"></div>
-    <!-- end example react component -->
+    end example react component -->
 
-    <div class="prose max-w-full">
-
+    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        <div class="shrink-0">
+            <img class="h-12 w-12" src="https://place-hold.it/60x5/666/fff/000.png" alt="ChitChat Logo">
+        </div>
+        <div>
+            <div class="text-xl font-medium text-blue-500">ChitChat</div>
+            <p class="text-slate-500">You have a new message!</p>
+        </div>
     </div>
+    <p class="text-blue-600">The quick brown fox...</p>
+
 
 </main>
 
