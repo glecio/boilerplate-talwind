@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Object Sans";
+    src: url("./fonts/object-sans/ObjectSans-Thin.otf") format("opentype");
+    font-weight: 250;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Object Sans";
+    src: url("./fonts/object-sans/ObjectSans-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Object Sans";
+    src: url("./fonts/object-sans/ObjectSans-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Object Sans";
+    src: url("./fonts/object-sans/ObjectSans-Heavy.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+  }
+}
