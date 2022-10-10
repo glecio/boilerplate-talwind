@@ -1,16 +1,13 @@
 module.exports = {
   content: ["./**/*.php", "./src/**/*.js"],
   theme: {
-    colors: {
-      blue: '#1fb6ff',
-      purple: '#7e5bef',
-      pink: '#ff49db',
-      'glecio-blue': '#1fb6ee'
-    },
     fontFamily: {
       objectsans: ['Object Sans', 'sans-serif']
     },
     extend: {
+      colors: {
+        'glecio-blue': '#1fb6ee'
+      },
       spacing: {
         '8xl': '96rem',
         '9xl': '128rem',
