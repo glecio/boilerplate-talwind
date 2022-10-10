@@ -174,6 +174,14 @@ const person1 = new _scripts_Person__WEBPACK_IMPORTED_MODULE_1__["default"]("Bra
 if (document.querySelector("#render-react-example-here")) {
   react_dom__WEBPACK_IMPORTED_MODULE_4___default().render((0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_scripts_ExampleReactComponent__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.querySelector("#render-react-example-here"));
 }
+
+//MENU
+var menu = document.getElementById('manu4');
+function toggleMenu() {
+  manu4.classList.toggle('hidden');
+  manu4.classList.toggle('w-full');
+  manu4.classList.toggle('h-screen');
+}
 }();
 /******/ })()
 ;

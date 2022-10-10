@@ -23,16 +23,20 @@ get_header(); ?>
     <div id="render-react-example-here"></div>
     end example react component -->
 
-    <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+    <div class="p-6 max-w-sm mx-auto bg-sky-500 rounded-xl font-objectsans shadow-lg flex items-center space-x-4">
         <div class="shrink-0">
-            <img class="h-12 w-12" src="https://place-hold.it/60x5/666/fff/000.png" alt="ChitChat Logo">
+            <img class="h-12 w-12 sm:rounded-md" src="https://place-hold.it/60x5/666/fff/000.png" alt="ChitChat Logo">
         </div>
         <div>
-            <div class="text-xl font-medium text-blue-500">ChitChat</div>
-            <p class="text-slate-500">You have a new message!</p>
+            <div class="text-xl font-medium  text-white">Card Tailwind</div>
+            <p class="text-white">You have a new message!</p>
         </div>
     </div>
-    <p class="text-blue-600">The quick brown fox...</p>
+
+    <div class="pointer-events-auto h-6 w-10 rounded-full p-1 ring-1 ring-inset transition duration-200 ease-in-out bg-slate-900/10 ring-slate-900/5">
+        <div class="h-4 w-4 rounded-full bg-white shadow-sm ring-1 ring-slate-700/10 transition duration-200 ease-in-out"></div>
+    </div>
+    <p class="text-blue">The quick brown fox...</p>
 
 
 </main>
